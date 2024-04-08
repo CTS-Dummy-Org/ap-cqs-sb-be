@@ -1,11 +1,12 @@
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: ${repo}
-  annotations:
-    github.com/project-slug: CTS-Dummy-Org/${repo}
-spec:
-  type: service
-  owner: user:guest
-  system: default/${name}
-  lifecycle: experimental
+|
+  apiVersion: backstage.io/v1alpha1
+  kind: Component
+  metadata:
+    name: ap-cqs-sb-be
+    annotations:
+      github.com/project-slug: CTS-Dummy-Org/ap-cqs-sb-be
+  spec:
+    type: service
+    owner: user:guest
+    system: default/anshu-app
+    lifecycle: experimental
